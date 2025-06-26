@@ -1,0 +1,56 @@
+.bg-main {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  background-color: white;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+}
+.bg-main .bg-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 20px;
+}
+.bg-main .bg-container .NavTabs {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: center;
+}
+.bg-main .bg-container .shop {
+  height: 25px;
+  padding: 2px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 40%;
+}
+.bg-main .bg-container .cartIcon {
+  display: flex;
+  gap: 10px;
+}
+.bg-main .bg-container .bagline {
+  height: auto;
+  padding: 8px;
+  width: 60px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.bg-main .para {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: rgb(199, 218, 212);
+}
+.bg-main .head {
+  margin-bottom: 55px;
+  font-size: 50px;
+  color: white;
+}/*# sourceMappingURL=Navbar.module.css.map */
