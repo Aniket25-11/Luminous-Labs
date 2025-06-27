@@ -1,0 +1,45 @@
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+.main-div .main-bold-line {
+  font-weight: 900;
+  padding-top: 200px;
+  font-size: 25px;
+}
+.main-div .main-gray-line {
+  color: gray;
+  margin-bottom: 200px;
+  font-size: 25px;
+}
+.main-div .main-app-line {
+  color: gray;
+  font-size: 15px;
+}
+.main-div .main-shape-line {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+.main-div .threeProfiles {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.main-div .threeProfiles .section2-img {
+  background-size: cover;
+  height: 40%;
+  width: 40%;
+  border-radius: 20px;
+}
+.main-div .threeProfiles .main-btn-type {
+  border: 1px solid red;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  margin: 20px 140px;
+}/*# sourceMappingURL=Section2.module.css.map */

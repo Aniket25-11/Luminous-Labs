@@ -1,5 +1,13 @@
+.custom-container {
+  /* Any custom styling you want to apply to the container */
+  /* This won't affect the inner elements' styles */
+  background-color: white;
+  padding: 20px;
+}
+
 .bg-main {
   background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -8,6 +16,7 @@
   color: white;
   text-align: center;
   padding: 10px 20px;
+  border-radius: 20px;
 }
 .bg-main .bg-container {
   display: flex;
@@ -46,11 +55,14 @@
 }
 .bg-main .para {
   margin-bottom: 10px;
-  font-size: 15px;
+  font-size: 20px;
+  font-weight: 100;
   color: rgb(199, 218, 212);
+  font-family: arial;
 }
 .bg-main .head {
   margin-bottom: 55px;
-  font-size: 50px;
+  font-size: 70px;
   color: white;
+  font-family: arial;
 }/*# sourceMappingURL=Navbar.module.css.map */
